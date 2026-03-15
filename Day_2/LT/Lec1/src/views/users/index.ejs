@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+</head>
+
+<body>
+    <h1>Danh sách Users</h1>
+    <% if (status) { %>
+        <div>
+            <h2>Hello</h2>
+        </div>
+        <% } %>
+            <h2>Danh sach nguoi dung</h2>
+            <% for (const user of users) { %>
+                <div>
+                    <p>
+                        <%= user.name %>
+                    </p>
+                </div>
+                <% } %>
+
+</body>
+
+</html>
