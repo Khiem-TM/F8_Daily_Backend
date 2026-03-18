@@ -1,6 +1,7 @@
 import { registerRequestSchema } from "../schemas/auth.schema";
 import { NextFunction, Request, Response } from "express";
 
+// form chuẩn để validate req (sử dụng zod)
 export const validateRegisterRequest = (
   req: Request,
   res: Response,
