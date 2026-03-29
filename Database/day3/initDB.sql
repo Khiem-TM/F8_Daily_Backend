@@ -74,3 +74,5 @@ CREATE TABLE transaction_logs (
     2. Đảm bảm tính nhất quán dữ liệu --> Cập nhật số dư ngay khi có giao dịch
     3. Giúp xử lý các case phức tạp như hoàn tiền, giao dịch bị lỗi
     4. Hỗ trợ các tính năng như cảnh báo số dư thấp, giới hạn (bonus)
+*/
+
