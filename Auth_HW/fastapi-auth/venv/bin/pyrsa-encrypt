@@ -1,0 +1,8 @@
+#!/bin/sh
+'''exec' "/Users/F8/Daily F8 - Backend/Auth_HW/fastapi-auth/venv/bin/python" "$0" "$@"
+' '''
+import sys
+from rsa.cli import encrypt
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(encrypt())
